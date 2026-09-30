@@ -1,0 +1,23 @@
+{
+  "name": "sekr-dark",
+  "displayName": "Sekr's Theme",
+  "description": "My custom VS Code theme",
+  "version": "1.0.7",
+  "icon": "icon.png",
+  "publisher": "Sekr1382",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soryn-s-theme-color-theme.json"
+      }
+    ]
+  }
+}
